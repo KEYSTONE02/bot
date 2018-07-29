@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'naber') {
+    if (message.content === 'hello') {
     	message.reply('iyi senden naber');
 
 client.on('message', message => {
