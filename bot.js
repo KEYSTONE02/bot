@@ -6,6 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+    if (message.content === 'naber') {
+    	message.reply('iyi senden naber');
+  	}
+
+client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
